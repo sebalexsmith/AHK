@@ -81,6 +81,12 @@ CapsLock & q::
     focusOnBrowser()
 return
 
+; Wordtips
+CapsLock & o::
+    Run "https://word.tips/words-with-letters/"
+    focusOnBrowser()
+return
+
 
 
 
@@ -104,9 +110,9 @@ CapsLock & a::
     Run "C:\Users\sebal\Documents\Auxiliary"
 return
 
-; AutoHotKey
+; This repo
 CapsLock & z::
-    Run "C:\Users\sebal\OneDrive\Dokumenter\Personal\AHK"
+    Run "C:\Users\sebal\AppData\Local\Programs\Microsoft VS Code\Code.exe" "C:\Users\sebal\OneDrive\Dokumenter\Personal\AHK"
 return
 
 
