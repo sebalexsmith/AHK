@@ -96,7 +96,7 @@ CapsLock & t::
     Sleep 50
     Run "https://travle.earth/"
     Sleep 50
-    Run "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_14"
+    Run "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_15"
     focusOnBrowser()
 return
 
@@ -110,12 +110,15 @@ CapsLock & a::
     Run "C:\Users\sebal\Documents\Auxiliary"
 return
 
-; This repo
+; AHK
 CapsLock & z::
-    Run "C:\Users\sebal\AppData\Local\Programs\Microsoft VS Code\Code.exe" "C:\Users\sebal\OneDrive\Dokumenter\Personal\AHK"
+    Run "C:\Users\sebal\OneDrive\Dokumenter\Personal\AHK"
 return
 
-
+; This repo
+CapsLock & LShift::
+    Run "C:\Users\sebal\AppData\Local\Programs\Microsoft VS Code\Code.exe" "C:\Users\sebal\OneDrive\Dokumenter\Personal\AHK"
+return
 
 
 
