@@ -96,7 +96,7 @@ CapsLock & t::
     Sleep 50
     Run "https://travle.earth/"
     Sleep 50
-    Run "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_15"
+    Run "https://starship-spacex.fandom.com/wiki/Starship_Flight_Test_16"
     focusOnBrowser()
 return
 
