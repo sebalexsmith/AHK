@@ -92,6 +92,8 @@ return
 
 ; Daily
 CapsLock & t::
+    Run "https://www.nytimes.com/games/wordle/index.html"
+    Sleep 50
     Run "https://www.theatlantic.com/games/"
     Sleep 50
     Run "https://travle.earth/"
